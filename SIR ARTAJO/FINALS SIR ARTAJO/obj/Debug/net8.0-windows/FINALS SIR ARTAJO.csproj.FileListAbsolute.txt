@@ -1,0 +1,17 @@
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\bin\Debug\net8.0-windows\FINALS SIR ARTAJO.exe
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\bin\Debug\net8.0-windows\FINALS SIR ARTAJO.deps.json
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\bin\Debug\net8.0-windows\FINALS SIR ARTAJO.runtimeconfig.json
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\bin\Debug\net8.0-windows\FINALS SIR ARTAJO.dll
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\bin\Debug\net8.0-windows\FINALS SIR ARTAJO.pdb
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS_SIR_ARTAJO.Form1.resources
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.csproj.GenerateResource.cache
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.AssemblyInfoInputs.cache
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.AssemblyInfo.cs
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.csproj.CoreCompileInputs.cache
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.sourcelink.json
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.dll
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\refint\FINALS SIR ARTAJO.dll
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.pdb
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\FINALS SIR ARTAJO.genruntimeconfig.cache
+E:\Documents\MY CODES !!!\SIR ARTAJO\FINALS SIR ARTAJO\obj\Debug\net8.0-windows\ref\FINALS SIR ARTAJO.dll

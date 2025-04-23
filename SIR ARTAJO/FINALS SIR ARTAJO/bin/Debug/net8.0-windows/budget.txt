@@ -1,0 +1,3 @@
+2025-04-18 | Expense | 500.00 | Prostitution
+2025-04-18 | Income | 1000.00 | Salary
+2025-04-18 | Income | 500.00 | Payment

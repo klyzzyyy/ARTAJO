@@ -8,27 +8,27 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\WS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\ExamARTAJO\\ARTAJO\\ARTAJO.csproj",
+      "projectUniqueName": "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\ARTAJO.csproj",
       "projectName": "ARTAJO",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\ExamARTAJO\\ARTAJO\\ARTAJO.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\ExamARTAJO\\ARTAJO\\obj\\",
+      "projectPath": "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\ARTAJO.csproj",
+      "packagesPath": "C:\\Users\\WS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "E:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\WS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -45,7 +45,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -69,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

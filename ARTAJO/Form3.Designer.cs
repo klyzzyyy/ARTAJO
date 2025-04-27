@@ -49,7 +49,7 @@
             // 
             lblWelcome.AutoSize = true;
             lblWelcome.BackColor = SystemColors.Control;
-            lblWelcome.Location = new Point(222, 51);
+            lblWelcome.Location = new Point(165, 51);
             lblWelcome.Margin = new Padding(5, 0, 5, 0);
             lblWelcome.Name = "lblWelcome";
             lblWelcome.Size = new Size(18, 20);

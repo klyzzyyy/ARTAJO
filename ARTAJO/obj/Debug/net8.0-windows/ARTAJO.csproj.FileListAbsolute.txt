@@ -16,3 +16,23 @@ C:\Users\Administrator\source\repos\ExamARTAJO\ARTAJO\obj\Debug\net8.0-windows\A
 C:\Users\Administrator\source\repos\ExamARTAJO\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.genruntimeconfig.cache
 C:\Users\Administrator\source\repos\ExamARTAJO\ARTAJO\obj\Debug\net8.0-windows\ref\ARTAJO.dll
 C:\Users\Administrator\source\repos\ExamARTAJO\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.Form3.resources
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\bin\Debug\net8.0-windows\ARTAJO.exe
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\bin\Debug\net8.0-windows\ARTAJO.deps.json
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\bin\Debug\net8.0-windows\ARTAJO.runtimeconfig.json
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\bin\Debug\net8.0-windows\ARTAJO.dll
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\bin\Debug\net8.0-windows\ARTAJO.pdb
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.Form1.resources
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.Form2.resources
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.Form3.resources
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.Form4.resources
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.Form5.resources
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.csproj.GenerateResource.cache
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.AssemblyInfoInputs.cache
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.AssemblyInfo.cs
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.csproj.CoreCompileInputs.cache
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.dll
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\refint\ARTAJO.dll
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.pdb
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ARTAJO.genruntimeconfig.cache
+C:\Users\WS\Downloads\ARTAJO-main (1)\ARTAJO\obj\Debug\net8.0-windows\ref\ARTAJO.dll

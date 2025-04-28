@@ -1,0 +1,6 @@
+2025-04-28 | Income | 1000.00 | work
+2025-04-28 | Income | 2000.00 | balon
+2025-04-28 | Expense | 500.00 | daily needs
+2025-04-28 | Expense | 500.00 | pagkaon
+2025-04-28 | Expense | 1000.00 | uyab
+2025-04-28 | Income | 100.00 | aws

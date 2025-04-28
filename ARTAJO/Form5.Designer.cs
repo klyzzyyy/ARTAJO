@@ -28,35 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblTotalIncome = new Label();
-            lstIncome = new ListBox();
+            lblTotal = new Label();
+            lstTransaction = new ListBox();
             btnDelete = new Button();
             btnView = new Button();
             btnAdd = new Button();
             txtDescription = new TextBox();
             txtAmount = new TextBox();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
-            // lblTotalIncome
+            // lblTotal
             // 
-            lblTotalIncome.BackColor = SystemColors.InactiveCaptionText;
-            lblTotalIncome.ForeColor = SystemColors.Window;
-            lblTotalIncome.Location = new Point(343, 268);
-            lblTotalIncome.Margin = new Padding(4, 0, 4, 0);
-            lblTotalIncome.Name = "lblTotalIncome";
-            lblTotalIncome.Size = new Size(189, 46);
-            lblTotalIncome.TabIndex = 22;
-            lblTotalIncome.TextAlign = ContentAlignment.MiddleCenter;
+            lblTotal.BackColor = SystemColors.InactiveCaptionText;
+            lblTotal.ForeColor = SystemColors.Window;
+            lblTotal.Location = new Point(343, 268);
+            lblTotal.Margin = new Padding(4, 0, 4, 0);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(189, 46);
+            lblTotal.TabIndex = 22;
+            lblTotal.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // lstIncome
+            // lstTransaction
             // 
-            lstIncome.FormattingEnabled = true;
-            lstIncome.ItemHeight = 20;
-            lstIncome.Location = new Point(292, 64);
-            lstIncome.Name = "lstIncome";
-            lstIncome.Size = new Size(294, 164);
-            lstIncome.TabIndex = 21;
+            lstTransaction.FormattingEnabled = true;
+            lstTransaction.ItemHeight = 20;
+            lstTransaction.Location = new Point(292, 64);
+            lstTransaction.Name = "lstTransaction";
+            lstTransaction.Size = new Size(294, 164);
+            lstTransaction.TabIndex = 21;
             // 
             // btnDelete
             // 
@@ -127,14 +128,28 @@
             label1.Size = new Size(576, 349);
             label1.TabIndex = 15;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Red;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = SystemColors.Window;
+            button1.Location = new Point(511, 25);
+            button1.Name = "button1";
+            button1.Size = new Size(88, 33);
+            button1.TabIndex = 23;
+            button1.Text = "BACK";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(617, 393);
-            Controls.Add(lblTotalIncome);
-            Controls.Add(lstIncome);
+            Controls.Add(button1);
+            Controls.Add(lblTotal);
+            Controls.Add(lstTransaction);
             Controls.Add(btnDelete);
             Controls.Add(btnView);
             Controls.Add(btnAdd);
@@ -152,13 +167,14 @@
 
         #endregion
 
-        private Label lblTotalIncome;
-        private ListBox lstIncome;
+        private Label lblTotal;
+        private ListBox lstTransaction;
         private Button btnDelete;
         private Button btnView;
         private Button btnAdd;
         private TextBox txtDescription;
         private TextBox txtAmount;
         private Label label1;
+        private Button button1;
     }
 }

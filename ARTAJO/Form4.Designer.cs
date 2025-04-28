@@ -34,8 +34,9 @@
             btnAdd = new Button();
             btnView = new Button();
             btnDelete = new Button();
-            lstExpenses = new ListBox();
-            lblTotalExpenses = new Label();
+            lstTransaction = new ListBox();
+            lblTotal = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -107,25 +108,38 @@
             btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
             // 
-            // lstExpenses
+            // lstTransaction
             // 
-            lstExpenses.FormattingEnabled = true;
-            lstExpenses.ItemHeight = 20;
-            lstExpenses.Location = new Point(293, 65);
-            lstExpenses.Name = "lstExpenses";
-            lstExpenses.Size = new Size(294, 164);
-            lstExpenses.TabIndex = 12;
+            lstTransaction.FormattingEnabled = true;
+            lstTransaction.ItemHeight = 20;
+            lstTransaction.Location = new Point(293, 65);
+            lstTransaction.Name = "lstTransaction";
+            lstTransaction.Size = new Size(294, 164);
+            lstTransaction.TabIndex = 12;
             // 
-            // lblTotalExpenses
+            // lblTotal
             // 
-            lblTotalExpenses.BackColor = SystemColors.InactiveCaptionText;
-            lblTotalExpenses.ForeColor = SystemColors.Window;
-            lblTotalExpenses.Location = new Point(344, 269);
-            lblTotalExpenses.Margin = new Padding(4, 0, 4, 0);
-            lblTotalExpenses.Name = "lblTotalExpenses";
-            lblTotalExpenses.Size = new Size(189, 46);
-            lblTotalExpenses.TabIndex = 14;
-            lblTotalExpenses.TextAlign = ContentAlignment.MiddleCenter;
+            lblTotal.BackColor = SystemColors.InactiveCaptionText;
+            lblTotal.ForeColor = SystemColors.Window;
+            lblTotal.Location = new Point(344, 269);
+            lblTotal.Margin = new Padding(4, 0, 4, 0);
+            lblTotal.Name = "lblTotal";
+            lblTotal.Size = new Size(189, 46);
+            lblTotal.TabIndex = 14;
+            lblTotal.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(0, 132, 255);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = SystemColors.Window;
+            button1.Location = new Point(527, 26);
+            button1.Name = "button1";
+            button1.Size = new Size(73, 33);
+            button1.TabIndex = 15;
+            button1.Text = "back";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form4
             // 
@@ -133,8 +147,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(614, 395);
-            Controls.Add(lblTotalExpenses);
-            Controls.Add(lstExpenses);
+            Controls.Add(button1);
+            Controls.Add(lblTotal);
+            Controls.Add(lstTransaction);
             Controls.Add(btnDelete);
             Controls.Add(btnView);
             Controls.Add(btnAdd);
@@ -157,7 +172,8 @@
         private Button btnAdd;
         private Button btnView;
         private Button btnDelete;
-        private ListBox lstExpenses;
-        private Label lblTotalExpenses;
+        private ListBox lstTransaction;
+        private Label lblTotal;
+        private Button button1;
     }
 }

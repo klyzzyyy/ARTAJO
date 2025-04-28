@@ -73,8 +73,8 @@ namespace ARTAJO
                 {
                     if (parts[2] == hashedPassword)
                     {
-                        // Pass the username (parts[0]) to Form3
-                        Form3 frm3 = new Form3(parts[0]);  // parts[0] is the username
+                        
+                        Form3 frm3 = new Form3(parts[0]);  
                         this.Hide();
                         frm3.Show();
                         return;

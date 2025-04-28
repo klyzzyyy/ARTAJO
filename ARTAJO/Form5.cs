@@ -12,15 +12,39 @@ namespace ARTAJO
 {
     public partial class Form5 : Form
     {
-        string filePath = "income.txt";
-        public Form5()
+        string filePath = "transactions.txt";
+        private string username;
+        public Form5(string username)
         {
             InitializeComponent();
+            SetPlaceholder(txtAmount, "Amount");
+            SetPlaceholder(txtDescription, "Description");
+            this.username = username;
         }
 
         private void Form5_Load(object sender, EventArgs e)
         {
 
+        }
+        private void SetPlaceholder(TextBox textBox, string placeholder)
+        {
+            textBox.Text = placeholder;
+
+            textBox.GotFocus += (sender, e) =>
+            {
+                if (textBox.Text == placeholder)
+                {
+                    textBox.Text = "";
+                }
+            };
+
+            textBox.LostFocus += (sender, e) =>
+            {
+                if (string.IsNullOrWhiteSpace(textBox.Text))
+                {
+                    textBox.Text = placeholder;
+                }
+            };
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -41,50 +65,121 @@ namespace ARTAJO
 
         private void btnView_Click(object sender, EventArgs e)
         {
-            lstIncome.Items.Clear();
-            decimal totalIncome = 0;
+            lstTransaction.Items.Clear();
+            string filePath = "transactions.txt";
 
             if (File.Exists(filePath))
             {
                 var lines = File.ReadAllLines(filePath);
                 foreach (var line in lines)
                 {
-                    lstIncome.Items.Add(line);
                     string[] parts = line.Split('|');
-                    if (parts.Length >= 3 && decimal.TryParse(parts[2], out decimal amt))
+                    if (parts.Length >= 4)
                     {
-                        totalIncome += amt;
+                        string type = parts[0].Trim();
+                        string amount = parts[1].Trim();
+                        string date = parts[2].Trim();
+                        string description = parts[3].Trim();
+                        lstTransaction.Items.Add($"{date} | {type} | {amount} | {description}");
                     }
                 }
             }
-
-            lblTotalIncome.Text = $"Total Income: {totalIncome:C}";
+            else
+            {
+                MessageBox.Show("No transactions recorded yet.");
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (lstIncome.SelectedItem != null)
+            string filePath = "transactions.txt";
+
+            if (lstTransaction.SelectedItem != null)
             {
-                string selectedLine = lstIncome.SelectedItem.ToString();
+                string selectedLine = lstTransaction.SelectedItem.ToString();
                 var lines = File.ReadAllLines(filePath);
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
                     foreach (string line in lines)
                     {
-                        if (line != selectedLine)
+                        string formattedLine = FormatTransactionLine(line);
+                        if (formattedLine != selectedLine)
                         {
                             writer.WriteLine(line);
                         }
                     }
                 }
 
-                MessageBox.Show("Income entry deleted.");
-                btnView_Click(sender, e);
+                MessageBox.Show("Transaction deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoadTransactions();
             }
             else
             {
-                MessageBox.Show("Please select an income to delete.");
+                MessageBox.Show("Please select a transaction to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void LoadTransactions()
+        {
+            lstTransaction.Items.Clear();
+            decimal incomeTotal = 0;
+            decimal expenseTotal = 0;
+
+            string filePath = "transactions.txt"; // Ensure the path is correct
+
+            if (File.Exists(filePath))
+            {
+                var lines = File.ReadAllLines(filePath);
+                foreach (var line in lines)
+                {
+                    lstTransaction.Items.Add(line); 
+                    string[] parts = line.Split('|');
+                    if (parts.Length >= 3)
+                    {
+                        decimal amount;
+                        if (decimal.TryParse(parts[2], out amount))
+                        {
+                            if (parts[1].Trim() == "Income")
+                            {
+                                incomeTotal += amount; 
+                            }
+                            else if (parts[1].Trim() == "Expense")
+                            {
+                                expenseTotal += amount;
+                            }
+                        }
+                    }
+                }
+            }
+            if (this.Name == "Form4")
+            {
+                lblTotal.Text = $"Total Expenses: ₱{expenseTotal}";
+            }
+            else if (this.Name == "Form5")
+            {
+                lblTotal.Text = $"Total Income: ₱{incomeTotal}";
+            }
+        }
+        private void btnCalculateIncome_Click(object sender, EventArgs e)
+        {
+            btnView_Click(sender, e);
+        }
+
+        private string FormatTransactionLine(string line)
+        {
+            string[] parts = line.Split('|');
+            if (parts.Length >= 4)
+            {
+                return $"{parts[2].Trim()} | {parts[0].Trim()} | {parts[1].Trim()} | {parts[3].Trim()}";
+            }
+            return line;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3(username);
+            this.Hide();
+            frm3.Show();
         }
     }
 }

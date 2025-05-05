@@ -9,7 +9,7 @@ namespace ARTAJO
 {
     public partial class Form1 : Form
     {
-        string filePath = "users.txt";
+        string filePath = Path.Combine(Application.StartupPath, "users.txt");
 
         public Form1()
         {
@@ -56,6 +56,13 @@ namespace ARTAJO
                 MessageBox.Show("Please enter both email and password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            if (email == "Email address" || password == "Password" ||
+            string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Please enter both email and password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
 
             if (!File.Exists(filePath))
             {
@@ -73,8 +80,8 @@ namespace ARTAJO
                 {
                     if (parts[2] == hashedPassword)
                     {
-                        
-                        Form3 frm3 = new Form3(parts[0]);  
+
+                        Form3 frm3 = new Form3(parts[0]);
                         this.Hide();
                         frm3.Show();
                         return;
@@ -88,7 +95,7 @@ namespace ARTAJO
             }
 
             MessageBox.Show("Invalid email or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        
+
         }
 
         private void chkPassword_CheckedChanged(object sender, EventArgs e)
@@ -120,6 +127,11 @@ namespace ARTAJO
             {
                 txtPassword.PasswordChar = '*';
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

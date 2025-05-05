@@ -13,7 +13,7 @@ namespace ARTAJO
 {
     public partial class Form2 : Form
     {
-        string filePath = "users.txt";
+        string filePath = Path.Combine(Application.StartupPath, "users.txt");
         public Form2()
         {
             InitializeComponent();

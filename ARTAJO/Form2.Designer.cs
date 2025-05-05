@@ -86,7 +86,7 @@
             // 
             // txtName
             // 
-            txtName.BackColor = Color.WhiteSmoke;
+            txtName.BackColor = Color.LightGray;
             txtName.BorderStyle = BorderStyle.FixedSingle;
             txtName.Location = new Point(57, 151);
             txtName.Multiline = true;
@@ -96,7 +96,7 @@
             // 
             // txtEmail
             // 
-            txtEmail.BackColor = Color.WhiteSmoke;
+            txtEmail.BackColor = Color.LightGray;
             txtEmail.BorderStyle = BorderStyle.FixedSingle;
             txtEmail.Location = new Point(57, 212);
             txtEmail.Multiline = true;
@@ -106,7 +106,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.BackColor = Color.WhiteSmoke;
+            txtPassword.BackColor = Color.LightGray;
             txtPassword.BorderStyle = BorderStyle.FixedSingle;
             txtPassword.Location = new Point(57, 274);
             txtPassword.Multiline = true;

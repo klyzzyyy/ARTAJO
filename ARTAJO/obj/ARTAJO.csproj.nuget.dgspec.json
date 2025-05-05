@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\ARTAJO.csproj": {}
+    "C:\\Users\\WS\\Desktop\\ARTAJO-main\\ARTAJO\\ARTAJO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\ARTAJO.csproj": {
+    "C:\\Users\\WS\\Desktop\\ARTAJO-main\\ARTAJO\\ARTAJO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\ARTAJO.csproj",
+        "projectUniqueName": "C:\\Users\\WS\\Desktop\\ARTAJO-main\\ARTAJO\\ARTAJO.csproj",
         "projectName": "ARTAJO",
-        "projectPath": "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\ARTAJO.csproj",
+        "projectPath": "C:\\Users\\WS\\Desktop\\ARTAJO-main\\ARTAJO\\ARTAJO.csproj",
         "packagesPath": "C:\\Users\\WS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WS\\Downloads\\ARTAJO-main (1)\\ARTAJO\\obj\\",
+        "outputPath": "C:\\Users\\WS\\Desktop\\ARTAJO-main\\ARTAJO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WS\\AppData\\Roaming\\NuGet\\NuGet.Config",
